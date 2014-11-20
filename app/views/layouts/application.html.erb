@@ -9,9 +9,13 @@
     <%= javascript_include_tag 'application' %>
     <%= csrf_meta_tags %>
   </head>
+
   <body>
     <div class="container text-center">
+      <u><%= link_to "Home", "index" %></u>
+      <u><%= link_to "Youtube", "https://www.youtube.com/watch?v=HNTxr2NJHa0" %></u>
       <%= yield %>
     </div>
+
   </body>
 </html>
